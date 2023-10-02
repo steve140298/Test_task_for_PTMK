@@ -1,20 +1,2 @@
-Установка Python
-Перед тем как начать, убедитесь, что:
-
-Вы используете операционную систему, удобную для разработки (например Ubuntu, MacOS). Владельцам Windows мы рекомендуем настроить Windows Subsystem for Linux (WSL). О том, как это сделать мы написали гайд.
-Вы знаете, как запустить терминал, и можете выполнить команды в нём
-Python ещё не установлен в вашей системе по умолчанию. Проверить это можно, выполнив команду:
-python3 -V
-Вы знакомы с основами Git
-Используя менеджер версий (рекомендованный)
-Установите менеджер версий asdf. О том, как это сделать, мы писали в гайде "Что такое "Менеджер версий""
-Выполните команды:
-asdf plugin-add python https://github.com/asdf-community/asdf-python.git
-asdf install python3 latest
-Используя менеджер пакетов
-MacOS (если установлен Homebrew)
-brew install python3
-Ubuntu Linux
-sudo apt install python3
-Используя пакеты с официального сайта
-Последнюю версию ** можно скачать на официальном сайте тут. Выберите подходящий для Вашей операционной системы файл и скачайте его.
+<h1>1 Install python from this <a href='https://www.python.org/downloads/'>site </a></h1>
+<h1>Then install requirements.txt with this command pip install -r requirements.txt</h1>
